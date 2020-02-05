@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F3E238D23EB276A00D6F31B /* CardMotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E238C23EB276A00D6F31B /* CardMotionView.swift */; };
+		0F3E238F23EB28C100D6F31B /* CardMotionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F3E238E23EB28C100D6F31B /* CardMotionView.xib */; };
+		0F3E239123EB297D00D6F31B /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3E239023EB297D00D6F31B /* XibView.swift */; };
 		0F7AA70A23DF825700B2876D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AA70923DF825700B2876D /* AppDelegate.swift */; };
 		0F7AA70C23DF825700B2876D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AA70B23DF825700B2876D /* SceneDelegate.swift */; };
 		0F7AA70E23DF825700B2876D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7AA70D23DF825700B2876D /* ViewController.swift */; };
 		0F7AA71123DF825700B2876D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7AA70F23DF825700B2876D /* Main.storyboard */; };
 		0F7AA71323DF825A00B2876D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7AA71223DF825A00B2876D /* Assets.xcassets */; };
 		0F7AA71623DF825A00B2876D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7AA71423DF825A00B2876D /* LaunchScreen.storyboard */; };
+		0F90B1D223E13852002278CA /* fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 0F90B1D123E13852002278CA /* fire.scnp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F3E238C23EB276A00D6F31B /* CardMotionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardMotionView.swift; sourceTree = "<group>"; };
+		0F3E238E23EB28C100D6F31B /* CardMotionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardMotionView.xib; sourceTree = "<group>"; };
+		0F3E239023EB297D00D6F31B /* XibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		0F7AA70623DF825700B2876D /* RappiCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RappiCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F7AA70923DF825700B2876D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F7AA70B23DF825700B2876D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		0F7AA71223DF825A00B2876D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F7AA71523DF825A00B2876D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F7AA71723DF825A00B2876D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F90B1D123E13852002278CA /* fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = fire.scnp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		0F7AA70823DF825700B2876D /* RappiCard */ = {
 			isa = PBXGroup;
 			children = (
+				0F3E239023EB297D00D6F31B /* XibView.swift */,
+				0F90B1A423E0DF86002278CA /* Particles */,
 				0F7AA70923DF825700B2876D /* AppDelegate.swift */,
 				0F7AA70B23DF825700B2876D /* SceneDelegate.swift */,
 				0F7AA70D23DF825700B2876D /* ViewController.swift */,
+				0F3E238C23EB276A00D6F31B /* CardMotionView.swift */,
+				0F3E238E23EB28C100D6F31B /* CardMotionView.xib */,
 				0F7AA70F23DF825700B2876D /* Main.storyboard */,
 				0F7AA71223DF825A00B2876D /* Assets.xcassets */,
 				0F7AA71423DF825A00B2876D /* LaunchScreen.storyboard */,
 				0F7AA71723DF825A00B2876D /* Info.plist */,
 			);
 			path = RappiCard;
+			sourceTree = "<group>";
+		};
+		0F90B1A423E0DF86002278CA /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				0F90B1D123E13852002278CA /* fire.scnp */,
+			);
+			path = Particles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F7AA71623DF825A00B2876D /* LaunchScreen.storyboard in Resources */,
+				0F90B1D223E13852002278CA /* fire.scnp in Resources */,
 				0F7AA71323DF825A00B2876D /* Assets.xcassets in Resources */,
 				0F7AA71123DF825700B2876D /* Main.storyboard in Resources */,
+				0F3E238F23EB28C100D6F31B /* CardMotionView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +162,8 @@
 			files = (
 				0F7AA70E23DF825700B2876D /* ViewController.swift in Sources */,
 				0F7AA70A23DF825700B2876D /* AppDelegate.swift in Sources */,
+				0F3E238D23EB276A00D6F31B /* CardMotionView.swift in Sources */,
+				0F3E239123EB297D00D6F31B /* XibView.swift in Sources */,
 				0F7AA70C23DF825700B2876D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76L7292LW4;
 				INFOPLIST_FILE = RappiCard/Info.plist;
@@ -293,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nbattelli.RappiCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76L7292LW4;
 				INFOPLIST_FILE = RappiCard/Info.plist;
@@ -311,6 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nbattelli.RappiCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
